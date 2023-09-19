@@ -16,7 +16,7 @@ public class GetVersionTest {
     ArangoDB arangoDB;
 
     @Test
-    public void testHelloEndpoint() {
+    public void testVersion() {
         assertEquals("3.11.3", arangoDB.getVersion().getVersion());
     }
 
